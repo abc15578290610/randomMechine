@@ -29,7 +29,7 @@ module game {
 			this.targetAnimation(7,this.m_num2,this.getRandomPos(2),400);
 
 		}
-		private getRandomPos(x:number){
+		private getRandomPos(x:number){//获取结果位置
 			return (x-1)*112-45.5
 		}
 		private targetAnimation(times=3,target:egret.DisplayObject,targetY,speed){
